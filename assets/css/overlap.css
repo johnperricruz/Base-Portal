@@ -1,0 +1,59 @@
+.form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.login .col-md-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.login-button-container.form-group div {
+    padding: 0px;
+}
+.forgot-container .forgot-box .forgot-body {
+    width: 100%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	max-width:400px;
+}
+body.forgot-password{
+	background: url("../img/bg.png") left top repeat #33414e;
+}
+.forgot-container {
+    max-width: 400px;
+    margin: 100px auto;
+}
+.forgot-title {
+    color: #fff;
+    font-size: 18px;
+    padding: 0px 10px;
+}	
+.forgot-subtitle {
+    color: #B1B1B1;
+    padding: 0px 10px;
+}
+.forgot-body h4 {
+    color: #fff;
+    margin-top: 26px;
+}
+.btn-link:hover, .btn-link:focus, .btn-link:active, .btn-link.active,.btn-link {
+    color: #fff;
+}
+body.forgot-password .form-group div {
+    padding: 0px;
+}
+body.forgot-password input.form-control{
+	border: 0px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+    color: #CCC;
+    line-height: 20px;
+    height: auto;
+}
+body.login a.btn.btn-link.btn-block,body.forgot-password a.btn.btn-link.btn-block {
+    text-align: left;
+    padding: 4px 0px;
+}
