@@ -134,7 +134,5 @@
 
 }
 
-.grid,
-.unit { -webkit-transition: all .25s ease-in-out; -moz-transition: all .25s ease-in-out; transition: all .25s ease-in-out; }
 
 /* *** End of Custom Grid *** */

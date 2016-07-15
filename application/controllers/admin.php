@@ -89,8 +89,7 @@ class admin extends CI_Controller {
 				}
 				$this->session->set_flashdata($response);
 				redirect(base_url('admin/view/profile'));
-			}
-			
+			}		
 			//Save personal info
 			else if($module == "save-profile"){
 				$data['response'] = $this->edit_data->updateProfileViaID(pid(),$txtFname,$txtMName,$txtLName,$txtBday,$rdGender);
@@ -133,11 +132,12 @@ class admin extends CI_Controller {
 				redirect(base_url('admin'));
 			}
 			
-		}
-		
+		}	
+	}
+	public function submit($mode){
+		extract($_POST);
 	}
 	public function debug(){
 		 generateRandomString(40);
 	}
-	
 }
